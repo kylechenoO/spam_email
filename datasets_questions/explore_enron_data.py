@@ -18,5 +18,8 @@
 import pickle
 
 enron_data = pickle.load(open("../final_project/final_project_dataset.pkl", "r"))
-
-
+# poi = [ enron_data[l]['poi'] for l in enron_data ]
+# print(sum(poi))
+# print( enron_data['PRENTICE JAMES'] )
+# print( enron_data['COLWELL WESLEY'] )
+print( enron_data['SKILLING JEFFREY K'] )
